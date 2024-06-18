@@ -42,6 +42,10 @@ body {
 .todo__item__checkbox {
     padding: 10px;
 }
+
+.todo__item__checkbox:checked + .todo__item__label{
+    text-decoration: line-through;
+} 
 .todo__item__label{
     padding: 10px;
     flex: 1;
@@ -60,4 +64,10 @@ body {
 
 .add__todo__container{
     width: 100%;
+}
+
+#ping {
+    width: 100vw;
+    height: 50px;
+    background-color: green;
 }
