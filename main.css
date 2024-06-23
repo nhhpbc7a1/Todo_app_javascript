@@ -13,7 +13,7 @@ body {
     width: 100%;
 }
 
-.todo__item{
+.todo__item,.add__todo__item{
     background-color: antiquewhite;
     width: 100%;
     border: solid 1px black;
@@ -21,7 +21,8 @@ body {
     display: flex;
 }
 
-.todo__item__icon i {
+.todo__item__icon i,
+.add__todo__item__icon i {
     background-color: red;
     color: black;
     padding: 5px;
@@ -51,7 +52,7 @@ body {
     flex: 1;
 }
 
-.todo__item__textbox {
+.todo__item__textbox,.add__todo__item__textbox{
     padding: 10px;
     flex: 1;
     border-radius: 10px;
@@ -66,8 +67,3 @@ body {
     width: 100%;
 }
 
-#ping {
-    width: 100vw;
-    height: 50px;
-    background-color: green;
-}
